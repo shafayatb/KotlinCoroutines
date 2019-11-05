@@ -1,5 +1,7 @@
 package com.baldystudios.kotlincoroutines
 
+import android.graphics.Color
+import android.graphics.drawable.ColorDrawable
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import kotlinx.android.synthetic.main.activity_main.*
@@ -33,6 +35,8 @@ class MainActivity : AppCompatActivity() {
             }
 
         }
+
+        jobWithTimeoutButton.setBackgroundColor(-5301441)
 
     }
 
